@@ -21,6 +21,8 @@ int makeGuess(int* charactersGuessed[26]){
             }else{
                 (charactersGuessed[guess-97]) = (int *) 1;
                 getchar();
+                //Now that you can make a guess, it needs to put the letter in the word.
+
                 return 1;
             }
 
