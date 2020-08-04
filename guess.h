@@ -7,4 +7,4 @@
 
 #endif //SNOWMAN_GUESS_H
 
-int makeGuess(int*,char);
+int makeGuess(int*);

@@ -11,12 +11,6 @@ stdio.h
 -
 string.h
 -
-
-Q:/Github/Snowman/snowman/guess.h
-
-Q:/Github/Snowman/snowman/main.c
-stdio.h
+ctype.h
 -
-guess.h
-Q:/Github/Snowman/snowman/guess.h
 

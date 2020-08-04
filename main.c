@@ -10,11 +10,12 @@ int main(){
         int livesUsed = 0;
         int guessArr[26] = {0};
 
-        makeGuess(guessArr, 'c');
+        while (1)
+            makeGuess(guessArr);
 
 
 
         //end the code when the game is over
-        break;
+       break;
     }
 }
