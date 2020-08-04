@@ -122,6 +122,33 @@ snowman/fast:
 	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/build
 .PHONY : snowman/fast
 
+guess.obj: guess.c.obj
+
+.PHONY : guess.obj
+
+# target to build an object file
+guess.c.obj:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/guess.c.obj
+.PHONY : guess.c.obj
+
+guess.i: guess.c.i
+
+.PHONY : guess.i
+
+# target to preprocess a source file
+guess.c.i:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/guess.c.i
+.PHONY : guess.c.i
+
+guess.s: guess.c.s
+
+.PHONY : guess.s
+
+# target to generate assembly for a file
+guess.c.s:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/guess.c.s
+.PHONY : guess.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... snowman
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... guess.obj
+	@echo ... guess.i
+	@echo ... guess.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

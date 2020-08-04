@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "Q:/Github/Snowman/snowman/guess.c" "Q:/Github/Snowman/snowman/cmake-build-debug/CMakeFiles/snowman.dir/guess.c.obj"
   "Q:/Github/Snowman/snowman/main.c" "Q:/Github/Snowman/snowman/cmake-build-debug/CMakeFiles/snowman.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

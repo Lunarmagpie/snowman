@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="Q:/Github/Snowman/snowman/guess.c">
+			<Option target="snowman"/>
+		</Unit>
+		<Unit filename="Q:/Github/Snowman/snowman/guess.h">
+			<Option target="snowman"/>
+		</Unit>
 		<Unit filename="Q:/Github/Snowman/snowman/main.c">
 			<Option target="snowman"/>
 		</Unit>

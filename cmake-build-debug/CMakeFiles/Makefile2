@@ -73,12 +73,12 @@ clean: CMakeFiles/snowman.dir/clean
 CMakeFiles/snowman.dir/all:
 	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/depend
 	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Q:\Github\Snowman\snowman\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target snowman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=Q:\Github\Snowman\snowman\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target snowman"
 .PHONY : CMakeFiles/snowman.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/snowman.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start Q:\Github\Snowman\snowman\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start Q:\Github\Snowman\snowman\cmake-build-debug\CMakeFiles 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/snowman.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start Q:\Github\Snowman\snowman\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/snowman.dir/rule
