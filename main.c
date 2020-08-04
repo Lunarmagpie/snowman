@@ -5,5 +5,6 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello");
+    int livesUsed = 0;
+
 }
