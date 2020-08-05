@@ -6,7 +6,7 @@
 #include <string.h>
 #include <ctype.h>
 
-int makeGuess(int* charactersGuessed[26]){
+int makeGuess(int* charactersGuessed[26], int *livesUsed, char word[100]){
     int guess = ' ';
     while (1){
         guess = getchar();
@@ -16,12 +16,18 @@ int makeGuess(int* charactersGuessed[26]){
             continue;
         }else{
             if (charactersGuessed[guess-97]){
-                printf("You already guessed this letter");
+                printf("You already guessed this letter\n");
                 getchar();
+                continue;
             }else{
                 (charactersGuessed[guess-97]) = (int *) 1;
                 getchar();
-                //Now that you can make a guess, it needs to put the letter in the word.
+                if (strchr(word, guess)){
+
+                }else{
+                    printf("Incorrect Guess\n");
+                }
+
 
                 return 1;
             }

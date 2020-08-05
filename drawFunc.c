@@ -4,7 +4,7 @@
 #include "stdio.h"
 #include "string.h"
 
-void drawSnowman(int guessedLetters[26], int numberOfGuesses, char correctString[10]){
+int drawSnowman(const int guessedLetters[26], int numberOfGuesses, char correctString[100]){
     if(numberOfGuesses == 10){
         printf("+------------------------------+\n"
                "|             _____            |\n"
@@ -270,18 +270,13 @@ void drawSnowman(int guessedLetters[26], int numberOfGuesses, char correctString
                "+------------------------------+\n");
     }
     printf("| ");
-    int bool = 0;
+    int isAllCorrect = 1;
     for (int i = 0; i < strlen(correctString); i++){
-        bool = 0;
-        for (int j = 0; j < 26; j++){
-            if((char) guessedLetters[j] + 97 == correctString[i]){
-                printf("%c ", correctString[i]);
-                bool = 1;
-                break;
-            }
-        }
-        if (bool == 0){
+        if(guessedLetters[correctString[i]-97]){
+            printf("%c ", correctString[i]);
+        }else{
             printf("_ ");
+            isAllCorrect = 0;
         }
     }
     for(int i =0; i < (30 - strlen(correctString) * 2) - 1; i++){
@@ -289,4 +284,5 @@ void drawSnowman(int guessedLetters[26], int numberOfGuesses, char correctString
     }
     printf("|\n"
            "+------------------------------+\n");
+    return isAllCorrect;
 }
