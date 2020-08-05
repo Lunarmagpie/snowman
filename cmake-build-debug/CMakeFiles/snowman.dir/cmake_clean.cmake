@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/snowman.dir/drawFunc.c.obj"
   "CMakeFiles/snowman.dir/guess.c.obj"
   "CMakeFiles/snowman.dir/main.c.obj"
   "libsnowman.dll.a"

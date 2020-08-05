@@ -3,4 +3,4 @@ project(snowman C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(snowman main.c guess.c)
+add_executable(snowman main.c guess.c drawFunc.h drawFunc.c)

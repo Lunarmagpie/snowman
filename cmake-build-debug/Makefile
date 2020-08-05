@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "Q:\Programs\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "Q:\Programs\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = Q:\Github\Snowman\snowman
+CMAKE_SOURCE_DIR = C:\Users\Ander\Documents\GitHub\snowman
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = Q:\Github\Snowman\snowman\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Ander\Documents\GitHub\snowman\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = Q:\Github\Snowman\snowman\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"Q:\Programs\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"Q:\Programs\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start Q:\Github\Snowman\snowman\cmake-build-debug\CMakeFiles Q:\Github\Snowman\snowman\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ander\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles C:\Users\Ander\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start Q:\Github\Snowman\snowman\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ander\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ snowman: cmake_check_build_system
 snowman/fast:
 	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/build
 .PHONY : snowman/fast
+
+drawFunc.obj: drawFunc.c.obj
+
+.PHONY : drawFunc.obj
+
+# target to build an object file
+drawFunc.c.obj:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/drawFunc.c.obj
+.PHONY : drawFunc.c.obj
+
+drawFunc.i: drawFunc.c.i
+
+.PHONY : drawFunc.i
+
+# target to preprocess a source file
+drawFunc.c.i:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/drawFunc.c.i
+.PHONY : drawFunc.c.i
+
+drawFunc.s: drawFunc.c.s
+
+.PHONY : drawFunc.s
+
+# target to generate assembly for a file
+drawFunc.c.s:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/drawFunc.c.s
+.PHONY : drawFunc.c.s
 
 guess.obj: guess.c.obj
 
@@ -185,6 +212,9 @@ help:
 	@echo ... snowman
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... drawFunc.obj
+	@echo ... drawFunc.i
+	@echo ... drawFunc.s
 	@echo ... guess.obj
 	@echo ... guess.i
 	@echo ... guess.s

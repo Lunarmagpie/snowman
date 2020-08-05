@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-Q:/Github/Snowman/snowman/guess.c
+C:/Users/Ander/Documents/GitHub/snowman/drawFunc.h
+
+C:/Users/Ander/Documents/GitHub/snowman/guess.h
+
+C:/Users/Ander/Documents/GitHub/snowman/main.c
 stdio.h
 -
-string.h
--
-ctype.h
--
+guess.h
+C:/Users/Ander/Documents/GitHub/snowman/guess.h
+drawFunc.h
+C:/Users/Ander/Documents/GitHub/snowman/drawFunc.h
 

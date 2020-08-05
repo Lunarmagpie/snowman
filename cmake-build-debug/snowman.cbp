@@ -8,82 +8,88 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="Q:/Github/Snowman/snowman/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="snowman">
-				<Option output="Q:/Github/Snowman/snowman/cmake-build-debug/snowman.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="Q:/Github/Snowman/snowman/cmake-build-debug"/>
+				<Option output="C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/snowman.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="q:\programs\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
-					<Add directory="q:\programs\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
-					<Add directory="q:\programs\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 snowman"/>
-					<CompileFile command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 snowman"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="snowman/fast">
-				<Option output="Q:/Github/Snowman/snowman/cmake-build-debug/snowman.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="Q:/Github/Snowman/snowman/cmake-build-debug"/>
+				<Option output="C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/snowman.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="q:\programs\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
-					<Add directory="q:\programs\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
-					<Add directory="q:\programs\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 snowman/fast"/>
-					<CompileFile command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 snowman/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="Q:/Github/Snowman/snowman/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="Q:/Github/Snowman/snowman/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="Q:/Programs/MinGW/bin/mingw32-make.exe -f &quot;Q:/Github/Snowman/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="Q:/Github/Snowman/snowman/guess.c">
+		<Unit filename="C:/Users/Ander/Documents/GitHub/snowman/drawFunc.c">
 			<Option target="snowman"/>
 		</Unit>
-		<Unit filename="Q:/Github/Snowman/snowman/guess.h">
+		<Unit filename="C:/Users/Ander/Documents/GitHub/snowman/drawFunc.h">
 			<Option target="snowman"/>
 		</Unit>
-		<Unit filename="Q:/Github/Snowman/snowman/main.c">
+		<Unit filename="C:/Users/Ander/Documents/GitHub/snowman/guess.c">
 			<Option target="snowman"/>
 		</Unit>
-		<Unit filename="Q:/Github/Snowman/snowman/CMakeLists.txt">
+		<Unit filename="C:/Users/Ander/Documents/GitHub/snowman/guess.h">
+			<Option target="snowman"/>
+		</Unit>
+		<Unit filename="C:/Users/Ander/Documents/GitHub/snowman/main.c">
+			<Option target="snowman"/>
+		</Unit>
+		<Unit filename="C:/Users/Ander/Documents/GitHub/snowman/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
