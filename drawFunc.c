@@ -261,7 +261,7 @@ int drawSnowman(const int guessedLetters[26], int numberOfGuesses, char correctS
                "|            *                 |\n"
                "|                              |\n"
                "|                              |\n"
-               "|     *                         |\n"
+               "|     *                        |\n"
                "|                       *      |\n"
                "|                              |\n"
                "|                              |\n"

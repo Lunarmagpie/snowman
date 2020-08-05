@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/helen/OneDrive/Documents/GitHub/snowman/drawFunc.h
-
-C:/Users/helen/OneDrive/Documents/GitHub/snowman/guess.h
-
-C:/Users/helen/OneDrive/Documents/GitHub/snowman/main.c
+C:/Users/helen/OneDrive/Documents/GitHub/snowman/drawFunc.c
 stdio.h
--
-guess.h
-C:/Users/helen/OneDrive/Documents/GitHub/snowman/guess.h
-drawFunc.h
-C:/Users/helen/OneDrive/Documents/GitHub/snowman/drawFunc.h
+C:/Users/helen/OneDrive/Documents/GitHub/snowman/stdio.h
+string.h
+C:/Users/helen/OneDrive/Documents/GitHub/snowman/string.h
 
