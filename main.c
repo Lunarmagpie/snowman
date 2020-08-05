@@ -13,6 +13,8 @@ int main(){
         char word[100] = "hello"; //The word that the player has to guess
 
         //This is the main gameplay loop
+        //draw snowman before first input
+        drawSnowman(guessArr, livesUsed, word);
         while (1) {
             makeGuess(guessArr, &livesUsed, word);
             if (drawSnowman(guessArr, livesUsed, word)){
