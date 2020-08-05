@@ -18,6 +18,7 @@ int main(){
         //draw snowman before first input
         drawSnowman(guessArr, livesUsed, word);
         while (1) {
+            printf("\nGuess a letter:");
             makeGuess(guessArr, &livesUsed, word);
             if (drawSnowman(guessArr, livesUsed, word)){
                 //This code executes when the player wins
