@@ -19,7 +19,8 @@ int main(){
                 //This code executes when the player wins
                 printf("You guessed the word!");
                 break;
-            }else{
+            }
+            if (livesUsed>10){
                 //This code executes when the player looses
                 printf("You lost the game. The word was %s.", word);
                 break;
