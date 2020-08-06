@@ -1,6 +1,18 @@
 cmake_minimum_required(VERSION 3.16)
-project(snowman C)
+project(snowman)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 14)
 
-add_executable(snowman main.c guess.c drawFunc.h drawFunc.c titleScreen.h titleScreen.c)
+include_directories(.)
+
+add_executable(snowman
+        .gitattributes
+        CMakeLists.txt
+        drawFunc.c
+        drawFunc.h
+        guess.c
+        guess.h
+        main.c
+        titleScreen.c
+        titleScreen.h
+        words.txt randomWord.c randomWord.h)

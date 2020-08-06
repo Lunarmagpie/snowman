@@ -8,7 +8,11 @@ CMakeFiles/snowman.dir/guess.c.obj: ../guess.c
 CMakeFiles/snowman.dir/main.c.obj: ../drawFunc.h
 CMakeFiles/snowman.dir/main.c.obj: ../guess.h
 CMakeFiles/snowman.dir/main.c.obj: ../main.c
+CMakeFiles/snowman.dir/main.c.obj: ../randomWord.h
 CMakeFiles/snowman.dir/main.c.obj: ../titleScreen.h
+
+CMakeFiles/snowman.dir/randomWord.c.obj: ../randomWord.c
+CMakeFiles/snowman.dir/randomWord.c.obj: ../randomWord.h
 
 CMakeFiles/snowman.dir/titleScreen.c.obj: ../titleScreen.c
 

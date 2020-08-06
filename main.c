@@ -3,17 +3,19 @@
 //
 
 #include <stdio.h>
-#include <string.h>
 #include <ctype.h>
 #include "guess.h"
 #include "drawFunc.h"
 #include "titleScreen.h"
+#include "randomWord.h"
 
-int main(){
+int main(int argc, char* argv[]){
     while (1){
         int livesUsed = 0; //The amount of failed guesses
         int guessArr[26] = {0}; //Array of characters that where guessed
-        char word[100] = "hello"; //The word that the player has to guess
+        char word[100]; //The word that the player has to guess
+        randomWord ((FILE *) argv[1], word);
+        printf("%s\n", word);
         drawTitle();
         //This is the main gameplay loop
         //draw snowman before first input
@@ -55,4 +57,5 @@ int main(){
         if (end)
             break;
     }
+    return 0;
 }

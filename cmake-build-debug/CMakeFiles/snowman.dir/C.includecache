@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Ander/Documents/GitHub/snowman/titleScreen.c
+C:/Users/kieran/Documents/GitHub/snowman/drawFunc.h
+
+C:/Users/kieran/Documents/GitHub/snowman/guess.h
+
+C:/Users/kieran/Documents/GitHub/snowman/main.c
 stdio.h
-C:/Users/Ander/Documents/GitHub/snowman/stdio.h
+-
+ctype.h
+-
+guess.h
+C:/Users/kieran/Documents/GitHub/snowman/guess.h
+drawFunc.h
+C:/Users/kieran/Documents/GitHub/snowman/drawFunc.h
+titleScreen.h
+C:/Users/kieran/Documents/GitHub/snowman/titleScreen.h
+randomWord.h
+C:/Users/kieran/Documents/GitHub/snowman/randomWord.h
+
+C:/Users/kieran/Documents/GitHub/snowman/randomWord.h
+stdio.h
+-
+
+C:/Users/kieran/Documents/GitHub/snowman/titleScreen.h
 

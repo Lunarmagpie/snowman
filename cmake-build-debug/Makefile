@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Ander\Documents\GitHub\snowman
+CMAKE_SOURCE_DIR = C:\Users\kieran\Documents\GitHub\snowman
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Ander\Documents\GitHub\snowman\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kieran\Documents\GitHub\snowman\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ander\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles C:\Users\Ander\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kieran\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles C:\Users\kieran\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ander\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kieran\Documents\GitHub\snowman\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -203,6 +203,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/main.c.s
 .PHONY : main.c.s
 
+randomWord.obj: randomWord.c.obj
+
+.PHONY : randomWord.obj
+
+# target to build an object file
+randomWord.c.obj:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/randomWord.c.obj
+.PHONY : randomWord.c.obj
+
+randomWord.i: randomWord.c.i
+
+.PHONY : randomWord.i
+
+# target to preprocess a source file
+randomWord.c.i:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/randomWord.c.i
+.PHONY : randomWord.c.i
+
+randomWord.s: randomWord.c.s
+
+.PHONY : randomWord.s
+
+# target to generate assembly for a file
+randomWord.c.s:
+	$(MAKE) -f CMakeFiles\snowman.dir\build.make CMakeFiles/snowman.dir/randomWord.c.s
+.PHONY : randomWord.c.s
+
 titleScreen.obj: titleScreen.c.obj
 
 .PHONY : titleScreen.obj
@@ -248,6 +275,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... randomWord.obj
+	@echo ... randomWord.i
+	@echo ... randomWord.s
 	@echo ... titleScreen.obj
 	@echo ... titleScreen.i
 	@echo ... titleScreen.s
