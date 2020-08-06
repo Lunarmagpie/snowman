@@ -5,13 +5,14 @@
 #include <stdio.h>
 #include "guess.h"
 #include "drawFunc.h"
+#include "titleScreen.h"
 
 int main(){
     while (1){
         int livesUsed = 0; //The amount of failed guesses
         int guessArr[26] = {0}; //Array of characters that where guessed
         char word[100] = "hello"; //The word that the player has to guess
-
+        drawTitle();
         //This is the main gameplay loop
         //draw snowman before first input
         drawSnowman(guessArr, livesUsed, word);
