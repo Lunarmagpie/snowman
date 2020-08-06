@@ -3,6 +3,8 @@
 //
 
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 #include "guess.h"
 #include "drawFunc.h"
 #include "titleScreen.h"
@@ -17,6 +19,7 @@ int main(){
         //draw snowman before first input
         drawSnowman(guessArr, livesUsed, word);
         while (1) {
+            printf("\nGuess a letter:");
             makeGuess(guessArr, &livesUsed, word);
             if (drawSnowman(guessArr, livesUsed, word)){
                 //This code executes when the player wins
@@ -31,6 +34,25 @@ int main(){
         }
 
         //End the game. Get rid of this so the player can retry.
-        break;
+        printf("\nPress E to exit. Press R to play again.");
+        int end = 1;
+        while (1){
+            int result = getchar();
+            if (tolower(result) == (int) 'r'){
+                getchar();
+                end = 0;
+                break;
+            }
+            if (tolower(result) == (int) 'e'){
+                end = 1;
+                getchar();
+                break;
+            }
+            printf("\nInvalid Input. Press E or R.");
+
+
+        }
+        if (end)
+            break;
     }
 }
