@@ -5,7 +5,7 @@
 #ifndef SNOWMAN_RANDOMWORD_H
 #define SNOWMAN_RANDOMWORD_H
 
-#include <stdio.h>
-void randomWord(FILE *words, char *word);
+
+void randomWord(char *filename, char *word);
 
 #endif //SNOWMAN_RANDOMWORD_H

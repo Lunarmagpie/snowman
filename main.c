@@ -12,10 +12,10 @@
 int main(int argc, char* argv[]){
     drawTitle();
     while (1){
-        int livesUsed = 0; //The amount of failed guesses
+        int livesUsed = 0; //The amount of failed guesses 1
         int guessArr[26] = {0}; //Array of characters that where guessed
         char word[100]; //The word that the player has to guess
-        randomWord ((FILE *) argv[1], word);
+        randomWord (argv[1], word);
         //This is the main gameplay loop
         //draw snowman before first input
         drawSnowman(guessArr, livesUsed, word);

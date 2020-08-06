@@ -6,8 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(snowman
-        .gitattributes
-        CMakeLists.txt
         drawFunc.c
         drawFunc.h
         guess.c
