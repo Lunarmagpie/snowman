@@ -15,6 +15,7 @@ int main(int argc, char* argv[]){
         int guessArr[26] = {0}; //Array of characters that where guessed
         char word[100]; //The word that the player has to guess
         randomWord ((FILE *) argv[1], word);
+        printf("%s\n", word);
         drawTitle();
         //This is the main gameplay loop
         //draw snowman before first input
@@ -27,7 +28,7 @@ int main(int argc, char* argv[]){
                 printf("You guessed the word!");
                 break;
             }
-            if (livesUsed>10){
+            if (livesUsed>=10){
                 //This code executes when the player looses
                 printf("You lost the game. The word was %s.", word);
                 break;
