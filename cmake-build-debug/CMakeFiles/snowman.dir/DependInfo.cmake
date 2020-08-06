@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Ander/Documents/GitHub/snowman/drawFunc.c" "C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/drawFunc.c.obj"
-  "C:/Users/Ander/Documents/GitHub/snowman/guess.c" "C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/guess.c.obj"
-  "C:/Users/Ander/Documents/GitHub/snowman/main.c" "C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/main.c.obj"
-  "C:/Users/Ander/Documents/GitHub/snowman/randomWord.c" "C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/randomWord.c.obj"
-  "C:/Users/Ander/Documents/GitHub/snowman/titleScreen.c" "C:/Users/Ander/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/titleScreen.c.obj"
+  "C:/Users/helen/OneDrive/Documents/GitHub/snowman/drawFunc.c" "C:/Users/helen/OneDrive/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/drawFunc.c.obj"
+  "C:/Users/helen/OneDrive/Documents/GitHub/snowman/guess.c" "C:/Users/helen/OneDrive/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/guess.c.obj"
+  "C:/Users/helen/OneDrive/Documents/GitHub/snowman/main.c" "C:/Users/helen/OneDrive/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/main.c.obj"
+  "C:/Users/helen/OneDrive/Documents/GitHub/snowman/randomWord.c" "C:/Users/helen/OneDrive/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/randomWord.c.obj"
+  "C:/Users/helen/OneDrive/Documents/GitHub/snowman/titleScreen.c" "C:/Users/helen/OneDrive/Documents/GitHub/snowman/cmake-build-debug/CMakeFiles/snowman.dir/titleScreen.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
