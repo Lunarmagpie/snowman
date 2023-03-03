@@ -7,8 +7,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-void randomWord(FILE *words, char *word){
-    words = fopen(words, "r");
+void randomWord(char *filename, char *word){
+    FILE* words = fopen(filename, "r");
     srand(time(0));
     int randomNumber = rand();
     randomNumber = (randomNumber%10);
